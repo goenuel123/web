@@ -1,0 +1,195 @@
+/* Allgemeine Einstellungen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef2f8; /* Sanftes Rosa */
+}
+
+header {
+    background-color: #d28fc1; /* Rosa Hintergrund für den Header */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffb6c1; /* Helles Rosa für Hover-Effekt */
+}
+
+/* Hauptinhalt */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #d28fc1; /* Rosa Titel für den Hauptinhalt */
+}
+
+/* Produkt Container */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05); /* Leichtes Vergrößern bei Hover */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #d28fc1; /* Rosa Text für Produktbeschreibung */
+}
+
+.price {
+    font-size: 1.5em;
+    color: #ff69b4; /* Helles Pink für den Preis */
+}
+
+.product input[type="number"] {
+    margin-top: 10px;
+}
+
+/* Warenkorb */
+#cart {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cart h3 {
+    font-size: 1.5em;
+    color: #ff69b4;
+}
+
+/* Footer */
+footer {
+    background-color: #d28fc1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+/* Stil für den Warenkorb und die Entfernen-Schaltfläche */
+.cart-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item button {
+    background-color: #ff6347; /* Rotes Entfernen */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+    background-color: #ff4500; /* Helleres Rot bei Hover */
+}
+
+footer {
+    background-color: #d28fc1;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #ffb6c1; /* Helles Rosa für Hover-Effekt */
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #ffb6c1;
+}
